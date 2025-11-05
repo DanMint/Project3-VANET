@@ -4,7 +4,7 @@ SHELL := /bin/bash
 setup_env:
 	python3 -m venv myenv
 	source myenv/bin/activate
-	pip3 install pandas scikit-learn
+	pip3 install pandas scikit-learn numpy matplotlib seaborn scipy joblib tqdm python-dateutil
 
 run_SVM:
 	source myenv/bin/activate
