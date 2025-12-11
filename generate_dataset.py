@@ -312,7 +312,7 @@ def main():
     df = df[column_order]
     
     # Save to CSV with no spaces
-    output_file = 'vanet_dataset.csv'
+    output_file = 'enhanced_vanet_dataset.csv'
     df.to_csv(output_file, index=False)
     
     print(f"Dataset saved to '{output_file}'")
